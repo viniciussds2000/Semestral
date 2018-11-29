@@ -10,5 +10,3 @@ class Controle():
     def open_detalhes(self):
         Detalhes(self)
 
-    #def nota_fiscal(self):
-

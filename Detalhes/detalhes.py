@@ -51,7 +51,8 @@ class Detalhes(Toplevel):
 
     def btn_comprei(self):
         Compra(self)
-        
+
+
 
     
 

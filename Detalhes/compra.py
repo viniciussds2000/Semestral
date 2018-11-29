@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 
+
 class Compra(Toplevel):
     def __init__(self,parent):
         super().__init__(parent)
@@ -112,6 +113,7 @@ class Compra(Toplevel):
 
     def Finalizar_compra(self):
         print("foi")
+
         messagebox.showinfo("Nota_Fiscal", "COMPRA FINALIZADA!!\n"
                                            ""
                                            "Vendido por: "+Compra.get_vendedor(self)+"\n"
@@ -123,6 +125,7 @@ class Compra(Toplevel):
                                             "Pelo o valor de : R$"+Compra.get_valor(self)+"\n"
                                             "\n"
                                             "Obrigado pela a preferencia! Volte TINOVO!")
+
 
 
 
