@@ -1,12 +1,10 @@
 from patio import Patio
-from Detalhes.detalhes import Detalhes
-
+from Detalhes.compra import Compra
 class Controle():
     def __init__(self):
 
         self.janela=Patio(self)
         self.janela.mainloop()
 
-    def open_detalhes(self):
-        Detalhes(self)
+
 

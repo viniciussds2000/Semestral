@@ -1,27 +1,18 @@
 from tkinter import *
 from Detalhes.detalhes import *
+from Detalhes.compra import Compra
 
-'''from Detalhes.detalhes2 import Detalhes2
-from Detalhes.detalhes3 import Detalhes3
-from Detalhes.detalhes4 import Detalhes4
-from Detalhes.detalhes5 import Detalhes5
-from Detalhes.detalhes6 import Detalhes6
-from Detalhes.detalhes7 import Detalhes7
-from Detalhes.detalhes8 import Detalhes8
-from Detalhes.detalhes9 import Detalhes9
-'''
 class Patio(Tk):
     def __init__(self,controle):
         super().__init__()
 
-        modelo=""
+
         print ("Abrir tela principal")
         self.controle=controle
         self["bg"] = "black"
         self.title("Concessionaria TINOVO ")
         self.geometry("450x500+50+200")
         self.headfont = ("Arial", "30", "bold")
-
         self.head = Label(text="TINOVO", font=self.headfont, bg="black", fg="red2")
         self.bd = Label(text=("Como posso-lhe ajudar?"), font=("Arial", "16", "bold"), fg="white", bg="black")
 

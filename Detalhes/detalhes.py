@@ -27,8 +27,8 @@ class Detalhes(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 1.0 ", font=("Arial", "11"))
         self.info8 = Label(bottonframe,bg="black",fg="white", text="Combustivel: Gasolina e álcool ", font=("Arial", "11"))
         self.info9 = Label(bottonframe,bg="black",fg="white", text="Trasmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: 33.600", font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 27.190 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: R$33.600", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$27.190 ", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar= Button(bottonframe,width=10,height=2,text="Voltar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.destroy)
@@ -81,8 +81,8 @@ class Detalhes2(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 2.8", font=("Arial", "11"))
         self.info8 = Label(bottonframe,bg="black",fg="white", text="Combustivel: Diesel ", font=("Arial", "11"))
         self.info9 = Label(bottonframe,bg="black",fg="white", text="Transmissão: Manual, 6 velocidades", font=("Arial", "11"))
-        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: 160.456 ", font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 144.900 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: R$160.456 ", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$144.900 ", font=("Arial", "11"))
 
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
@@ -136,9 +136,9 @@ class Detalhes3(Toplevel):
         self.info8 = Label(bottonframe, bg="black", fg="white", text="Combustivel: Gasolina e álcool",
                                font=("Arial", "11"))
         self.info9 = Label(bottonframe, bg="black", fg="white", text="Transmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado 30.500 :  ",
+        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado R$30.500   ",
                                 font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 26.900", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$26.900", font=("Arial", "11"))
 
         self.btn_comprar = Button(bottonframe, width=10, height=2, text="Comprar", borderwidth=10, bg="red2",
                                       fg="white", font=("Arial", "11", "bold"),command=self.btn_comprei)
@@ -189,8 +189,8 @@ class Detalhes4(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 1.0", font=("Arial", "11"))
         self.info8 = Label(bottonframe,bg="black",fg="white", text="Combustivel: Gasolina e álcool ", font=("Arial", "11"))
         self.info9 = Label(bottonframe,bg="black",fg="white", text="Transmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: 48.990 ",font=("Arial", "11"))
-        self.info11 = Label(bottonframe,bg="black",fg="white", text="Valor na loja: 41.900", font=("Arial", "11"))
+        self.info10 = Label(bottonframe,bg="black",fg="white", text="Valor no mercado: R$48.990 ",font=("Arial", "11"))
+        self.info11 = Label(bottonframe,bg="black",fg="white", text="Valor na loja: R$41.900", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar = Button(bottonframe, width=10, height=2, text="Voltar", borderwidth=10, bg="red2", fg="white",
@@ -245,7 +245,7 @@ class Detalhes5(Toplevel):
                                    font=("Arial", "11"))
         self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: Não é mais fabricado ",
                                     font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 16.500 ",
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$16.500 ",
                                     font=("Arial", "11"))
 
         self.btn_comprar = Button(bottonframe, width=10, height=2, text="Comprar", borderwidth=10, bg="red2",
@@ -297,8 +297,8 @@ class Detalhes6(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 2.0", font=("Arial", "11"))
         self.info8 = Label(bottonframe,bg="black",fg="white", text="Combustivel: Gasolina e álcool", font=("Arial", "11"))
         self.info9 = Label(bottonframe,bg="black",fg="white", text="Transmissão: Automatica", font=("Arial", "11"))
-        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: 57.500  ", font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 49.900 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: R$57.500  ", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$49.900 ", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar = Button(bottonframe, width=10, height=2, text="Voltar", borderwidth=10, bg="red2", fg="white",
@@ -321,6 +321,7 @@ class Detalhes6(Toplevel):
 
     def btn_comprei(self):
         Compra(self)
+
 
 
 class Detalhes7(Toplevel):
@@ -348,8 +349,8 @@ class Detalhes7(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 1.0", font=("Arial", "11"))
         self.info8 = Label(bottonframe, bg="black", fg="white", text="Combustivel: Gasolina e álcool ",font=("Arial", "11"))
         self.info9 = Label(bottonframe, bg="black", fg="white", text="Transmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: 18.500 ", font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 15.900 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: R$18.500 ", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$15.900 ", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar = Button(bottonframe, width=10, height=2, text="Voltar", borderwidth=10, bg="red2", fg="white",
@@ -399,8 +400,8 @@ class Detalhes8(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 1.0", font=("Arial", "11"))
         self.info8 = Label(bottonframe, bg="black", fg="white", text="Combustivel: Gasolina e álcool ", font=("Arial", "11"))
         self.info9 = Label(bottonframe, bg="black", fg="white", text="Transmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: 30.500 ", font=("Arial", "11"))
-        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: 27.900 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe, bg="black", fg="white", text="Valor no mercado: R$30.500 ", font=("Arial", "11"))
+        self.info11 = Label(bottonframe, bg="black", fg="white", text="Valor na loja: R$27.900 ", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar = Button(bottonframe, width=10, height=2, text="Voltar", borderwidth=10, bg="red2", fg="white",
@@ -451,8 +452,8 @@ class Detalhes9(Toplevel):
         self.info7 = Label(bottonframe,bg="black",fg="white", text="Motor: 1.0", font=("Arial", "11"))
         self.info8 = Label(bottonframe,bg="black", fg="white", text="Combustivel: Gasolina e álcool ", font=("Arial", "11"))
         self.info9 = Label(bottonframe,bg="black", fg="white", text="Transmissão: Manual ", font=("Arial", "11"))
-        self.info10 = Label(bottonframe,bg="black", fg="white", text="Valor no mercado : 30.600 ", font=("Arial", "11"))
-        self.info11 = Label(bottonframe,bg="black", fg="white", text="Valor na loja: 24.190 ", font=("Arial", "11"))
+        self.info10 = Label(bottonframe,bg="black", fg="white", text="Valor no mercado : R$30.600 ", font=("Arial", "11"))
+        self.info11 = Label(bottonframe,bg="black", fg="white", text="Valor na loja: R$24.190 ", font=("Arial", "11"))
 
         self.btn_comprar= Button(bottonframe,width=10,height=2,text="Comprar",borderwidth=10,bg="red2",fg="white",font=("Arial", "11", "bold"),command=self.btn_comprei)
         self.btn_voltar = Button(bottonframe, width=10, height=2, text="Voltar", borderwidth=10, bg="red2", fg="white",

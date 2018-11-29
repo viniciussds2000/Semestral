@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+from datetime import date
 
 
 
@@ -111,18 +112,27 @@ class Compra(Toplevel):
 
 
 
+
     def Finalizar_compra(self):
         print("foi")
+        hj = date.today()
+        dia = str(hj.day)
+        mes = str(hj.month)
+        ano = str(hj.year)
 
-        messagebox.showinfo("Nota_Fiscal", "COMPRA FINALIZADA!!\n"
-                                           ""
+
+
+        messagebox.showinfo("Nota Fiscal", "COMPRA FINALIZADA!!\n"
+                                           "\n"
                                            "Vendido por: "+Compra.get_vendedor(self)+"\n"
+                                            "Pelo o valor de : R$"+Compra.get_valor(self)+"\n"
                                             "\n"
                                             "Comprado por: "+Compra.get_cliente(self)+"\n"
                                             "CPF: "+Compra.get_cpf(self)+"\n"
                                             "RG: "+Compra.get_rg(self)+"\n"
                                             "CEP: "+Compra.get_cep(self)+"\n"
-                                            "Pelo o valor de : R$"+Compra.get_valor(self)+"\n"
+                                            "Data: "+(dia)+"/"+(mes)+"/"+(ano)+"\n"
+                                            
                                             "\n"
                                             "Obrigado pela a preferencia! Volte TINOVO!")
 
